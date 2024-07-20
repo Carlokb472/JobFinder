@@ -16,7 +16,7 @@ const form = reactive({
     contactPhone: '',
   },
 });
-
+const toast = useToast();
 
 const handleSubmit = async () => {
   const newJob = {
